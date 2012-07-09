@@ -24,10 +24,6 @@
 		<script type="text/javascript" src="/vendor/jquery/jquery-1.7.min.js" ></script>
 		<script type='text/javascript' src='/vendor/jqzoom/js/jquery.jqzoom-core.js'></script>
 
-
-
-
-
 	</head>
 
 	<body>
@@ -41,8 +37,8 @@
 			<div class="slides">
 				<section>
 					<h1>Debuggify</h1>
-					<h3 class="inverted">Productivity++ &amp;&amp; Stress--</h3>
-					<p>You can navigate with <span class="key">→</span> and <span class="key">↓</span>.</p>
+					<!-- <h3 class="inverted">Productivity++ &amp;&amp; Stress--</h3>
+					<p>You can navigate with <span class="key">→</span> and <span class="key">↓</span>.</p> -->
 					<script>
 						// Delicously hacky. Look away.
 						if( navigator.userAgent.match( /(iPhone|iPad|iPod|Android)/i ) ) document.write( '<p style="color: rgba(0,0,0,0.3); text-shadow: none;">('+'Tap to navigate'+')</p>' );
@@ -50,16 +46,17 @@
 				</section>
 
 				<section>
-					<h2>World Wide Web</h2>
+					<h1 style="text-transform:initial">WWW is evolving faster than ever</h1>
 
-					<ul>
-					<li class="fragment">With HTML5, CSS3 & Javascript, WWW is evolving faster then ever</li>
+					<!-- <ul>
+					<li >With HTML5, CSS3 & Javascript, WWW is evolving faster then ever</li>
 
-					<li class="fragment">Websites are moving from simple web pages to complex web applications</li>
+					<li >Websites are moving from simple web pages to complex web applications</li>
 
-					<li class="fragment">1000's of web frameworks, libraries, API have flooded the web</li>
+					<li >1000's of web frameworks, libraries, API have flooded the web</li>
 
-					<li class="fragment">Browsers are continuously evolving to become more robust and powerful</li>
+					<li >Browsers are continuously evolving to become more robust and powerful</li>
+					</ul> -->
 
 				</section>
 <!--  #All Problems expplained -->
@@ -179,7 +176,7 @@
 					<h1> The Problem </h1>
 					<h2 style="text-transform:initial">Due the dynamic nature of the web, NO ONE can guarantee that a website working today will be working tomorrow</h2>
 					<h2>&</h2>
-					<h2 style="text-transform:initial">If things breaks, it is hard to answer WHEN, WHERE, WHY, WHAT & WHICH.</h2>
+					<h2 style="text-transform:initial">If things breaks, it is hard to answer WHEN, WHERE, WHY, & WHAT.</h2>
 
 				</section>
 
@@ -216,45 +213,53 @@
 					<section>
 						<h3 class="fragment">When <span style="text-transform:initial"> it breaks </span> ?</h3>
 						<ul>
-						<li class="fragment">Notify developers ASAP with the time </li>
+						<li class="fragment">Notify developers ASAP with relevant information</li>
 						<li class="fragment">Custom alerts on the type of errors</li>
+						<li class="fragment">Geo Location statistics
+							<img  src="./images/Where.png" height="300" width="600"/>
+						</li>
 						</ul>
+
+
 					</section>
 					<!-- Where -->
 					<section>
 						<h3>Where <span style="text-transform:initial"> it breaks </span> ? </h3>
-						<img src="./images/Where.png" height="300" width="600"/>
+
 						<p class="fragment">All the information related to environment is provided</p>
 						<ul>
-							<li class="fragment">which programming language ?</li>
-							<li class="fragment">Browser Vendor</li>
-							<li class="fragment">Browser Version</li>
-							<li class="fragment">Operating System</li>
+							<li class="fragment">Which programming language ?</li>
+							<li class="fragment">On Which Browser Vendor ?<img src="./images/browser_info.png" height="300" width="600"/></li>
+							<li class="fragment">On which Operating System</li>
 						</ul>
 					</section>
 
 					<!-- Why -->
 					<section>
 						<h3>Why <span style="text-transform:initial"> it breaks </span> ?</h3>
-						<img src="./images/technical_info.png" height="192" width="400"/>
+
 						<p class="fragment">Provide the technical details required for the analysis</p>
 						<ul>
 							<li class="fragment">Error Message</li>
 							<li class="fragment">File Name</li>
 							<li class="fragment">Line No</li>
-							<li class="fragment">Stack information if available </li>
+							<li class="fragment">Stack information if available </br>
+							<img src="./images/technical_info.png" height="192" width="400"/></li>
 							<!-- <li class="fragment"> </li> -->
 						</ul>
 					</section>
 					<!-- What -->
 					<section>
 						<h3>What <span style="text-transform:initial"> its affect </span> ?</h3>
-						<img src="./images/Unique_Users.png" height="180" width="743">
+
 						<p class="fragment">Provide the statistical information related to</p>
 						<ul>
 						<li class="fragment">Different type of problems - warnings, errors, fatal</li>
 						<li class="fragment">Frequency of errors</li>
-						<li class="fragment">How users are affected per problem which can helps the developers prioritize the problems</li>
+						<li class="fragment">How users are affected per problem which can helps the developers prioritize the problems
+						<img src="./images/Unique_Users.png" height="180" width="743">
+						</li>
+
 						</ul>
 					</section>
 				</section>
@@ -276,12 +281,13 @@
 
 				<!-- Our Customers -->
 				<section>
-					<h3>Who can use it ?</h3>
+					<h3>Why it will be big ?</h3>
 					<br><br>
 					<ul>
-						<li>Our service can be used by any page on web make it bug free</li>
-						<li>Service will be primarily used by developers, bloggers and big companies</li>
-						<li>The market for web-based technologies is growing very fast, so will be our service</li>
+						<li>It can be used on any web page to provide a bug free experience </li>
+						<li>Primary users consists of solo developers, bloggers, big teams or basically anyone who owns a website </li>
+						<li>It makes the life of developers a lot more easy so they can focus on other aspects of the development</li>
+						<li>As the web-based technologies are growing rapidly, so is the need of the service</li>
 					</ul>
 				</section>
 
@@ -479,7 +485,7 @@ linkify( 'a' );
 					</ul>
 				</section> -->
 
-				
+
 			</div>
 
 			<!-- The navigational controls UI -->
