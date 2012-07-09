@@ -1,7 +1,12 @@
 
+This is pitch for debuggify
 2>	(b)Web development is moving simple web sites to  complex web allplications
+
 	(a)One of the big trends in web devlopment, that will clearly dominate on going forward, is the tag team match up of HTML5 and CSS3 + JavaScript.
-	(c)Moreever, many frameworks,libraries have flooded the web which aim to reduce the overhead associated with common activities performed in web development but The fear is that if things go wrong it would be difficult for you to track if the issue is due to other libraries/framworks or in your.
+	(c)Moder web development consists of, many frameworks,libraries have flooded the web but The fear is that if things go wrong it would be difficult for you to track if the issue is due to other libraries/framworks or in your code.
+
+	Web developers can take advantage of 1000s of APIs to add more content or functionality to their site.Some of the most used API's are facebook, google, twitter.
+
 	(d)Browsers are updating to continously to provide better functionality and performance.This continual improvement of web browsers is wonderful, but it results in regressive testing : another headeache for developers, delays the product deadlines.
 
 3> i
