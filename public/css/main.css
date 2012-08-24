@@ -28,6 +28,9 @@ html, body {
 	height: 100%;
 	min-height: 600px;
 }
+html {
+	background-color: #131313;
+}
 
 body {
 	position: relative;
@@ -35,20 +38,44 @@ body {
 	margin: 0;
 	overflow: hidden;
 
-	font-family: 'Lato', Times, 'Times New Roman', serif;
+	font-family: 'Open Sans', 'Lato', Times, 'Times New Roman', serif;
 	font-size: 36px;
-	font-weight: 200;
+	font-weight: 400;
 	letter-spacing: -0.02em;
 	color: #eee;
 
-	background: #1c1e20;
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM1NTVhNWYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMWMxZTIwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -moz-radial-gradient(center, ellipse cover,  rgba(85,90,95,1) 0%, rgba(28,30,32,1) 100%);
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(85,90,95,1)), color-stop(100%,rgba(28,30,32,1)));
-	background: -webkit-radial-gradient(center, ellipse cover,  rgba(85,90,95,1) 0%,rgba(28,30,32,1) 100%);
-	background: -o-radial-gradient(center, ellipse cover,  rgba(85,90,95,1) 0%,rgba(28,30,32,1) 100%);
-	background: -ms-radial-gradient(center, ellipse cover,  rgba(85,90,95,1) 0%,rgba(28,30,32,1) 100%);
-	background: radial-gradient(center, ellipse cover,  rgba(85,90,95,1) 0%,rgba(28,30,32,1) 100%);
+
+background:
+	  -webkit-linear-gradient(63deg, #151515 5px, transparent 5px) 0 5px,
+	  -webkit-linear-gradient(243deg, #151515 5px, transparent 5px) 10px 0px,
+	  -webkit-linear-gradient(63deg, #222 5px, transparent 5px) 0px 10px,
+	  -webkit-linear-gradient(243deg, #222 5px, transparent 5px) 10px 5px,
+	  -webkit-linear-gradient(0deg, #1b1b1b 10px, transparent 10px),
+	  -webkit-linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background:
+	  -moz-linear-gradient(63deg, #151515 5px, transparent 5px) 0 5px,
+	  -moz-linear-gradient(243deg, #151515 5px, transparent 5px) 10px 0px,
+	  -moz-linear-gradient(63deg, #222 5px, transparent 5px) 0px 10px,
+	  -moz-linear-gradient(243deg, #222 5px, transparent 5px) 10px 5px,
+	  -moz-linear-gradient(0deg, #1b1b1b 10px, transparent 10px),
+	  -moz-linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background:
+	  -o-linear-gradient(63deg, #151515 5px, transparent 5px) 0 5px,
+	  -o-linear-gradient(243deg, #151515 5px, transparent 5px) 10px 0px,
+	  -o-linear-gradient(63deg, #222 5px, transparent 5px) 0px 10px,
+	  -o-linear-gradient(243deg, #222 5px, transparent 5px) 10px 5px,
+	  -o-linear-gradient(0deg, #1b1b1b 10px, transparent 10px),
+	  -o-linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+
+background:
+	  -ms-linear-gradient(63deg, #151515 5px, transparent 5px) 0 5px,
+	  -ms-linear-gradient(243deg, #151515 5px, transparent 5px) 10px 0px,
+	  -ms-linear-gradient(63deg, #222 5px, transparent 5px) 0px 10px,
+	  -ms-linear-gradient(243deg, #222 5px, transparent 5px) 10px 5px,
+	  -ms-linear-gradient(0deg, #1b1b1b 10px, transparent 10px),
+	  -ms-linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+
+background-size: 20px 20px;
 }
 
 /*********************************************
@@ -58,16 +85,25 @@ body {
 .reveal h2,
 .reveal h3,
 .reveal h4 {
-	margin: 0 0 10px 0;
+	margin: 0 0 20px 0;
 
 	color: #eee;
 
-	font-family: 'League Gothic', sans-serif;
+	font-family: 'Open Sans', 'League Gothic', sans-serif;
+	font-weight: 800;
 	line-height: 0.9em;
 	letter-spacing: 0.02em;
 
 	text-transform: uppercase;
 	text-shadow: 0px 0px 6px rgba(0,0,0,0.2);
+}
+
+.reveal h1 em,
+.reveal h2 em,
+.reveal h3 em,
+.reveal h4 em {
+	font-family: 'Gentium Book Basic';
+	font-style: italic;
 }
 
 .reveal h1 { font-size: 136px; 	}
@@ -143,26 +179,32 @@ body {
 	margin: 0 auto;
 }
 
+
+
 .reveal ol {
-	list-style-type: decimal;
+	list-style: decimal inside;
 }
+
+.reveal ol ul {
+	display: block;
+	margin-left: 80px;
+
+ }
 
 .reveal ul {
-	list-style-type: disc;
+	list-style: disc;
 }
+	.reveal ul>li>ul {
+		list-style: square;
+	}
+		.reveal ul>li>ul>li>ul {
+			list-style: circle;
+		}
 
-.reveal ul ul {
-	list-style-type: square;
-}
-
-.reveal ul ul ul {
-	list-style-type: circle;
-}
-
-.reveal ul ul,
-.reveal ul ol,
-.reveal ol ol,
-.reveal ol ul {
+.reveal ul>li>ul,
+.reveal ol>li>ol,
+.reveal ul>li>ul>li>ul,
+.reveal ol>li>ol>li>ol {
 	display: block;
 	margin-left: 40px;
 }
@@ -197,7 +239,7 @@ body {
 
 	text-align: left;
 	font-size: 14px;
-	font-family: monospace;
+	font-family: inconsolata, monospace;
 	line-height: 1.2em;
 
 	word-wrap: break-word;
@@ -205,19 +247,11 @@ body {
 	box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
 }
 
-.reveal code {
-	font-family: monospace;
+.reveal code, .reveal pre {
+	font-family: incsolata, monospace;
+	font-weight: bold;
 }
 
-.reveal table th,
-.reveal table td {
- 	 text-align: left;
- 	 padding-right: .3em;
-}
-
-.reveal table th {
- 	 text-shadow: rgb(255,255,255) 1px 1px 2px;
-}
 
 .reveal small {
 	font-size: 60%;
@@ -442,14 +476,11 @@ body {
  *********************************************/
 
 .reveal .slides {
-	position: absolute;
-	width: 900px;
+	position: relative;
+	max-width: 1090px;
 	height: 600px;
 
-	left: 50%;
-	top: 50%;
-	margin-left: -450px;
-	margin-top: -320px;
+	margin: 20px auto 0;
 	padding: 20px 0px;
 
 	text-align: center;
@@ -485,11 +516,11 @@ body {
 	    -ms-transform-style: preserve-3d;
 	        transform-style: preserve-3d;
 
-	-webkit-transition: all 800ms cubic-bezier(0.260, 0.860, 0.440, 0.985);
-	   -moz-transition: all 800ms cubic-bezier(0.260, 0.860, 0.440, 0.985);
-	    -ms-transition: all 800ms cubic-bezier(0.260, 0.860, 0.440, 0.985);
-	     -o-transition: all 800ms cubic-bezier(0.260, 0.860, 0.440, 0.985);
-	        transition: all 800ms cubic-bezier(0.260, 0.860, 0.440, 0.985);
+	-webkit-transition: all 400ms cubic-bezier(0.260, 0.860, 0.440, 0.985);
+	   -moz-transition: all 400ms cubic-bezier(0.260, 0.860, 0.440, 0.985);
+	    -ms-transition: all 400ms cubic-bezier(0.260, 0.860, 0.440, 0.985);
+	     -o-transition: all 400ms cubic-bezier(0.260, 0.860, 0.440, 0.985);
+	        transition: all 400ms cubic-bezier(0.260, 0.860, 0.440, 0.985);
 }
 
 .reveal .slides>section.present {
@@ -958,3 +989,14 @@ body {
 .reveal section a.zoom img {
 	margin-top: 0px;
 }
+
+
+.reveal pre code {
+        font-size : 32px;
+        line-height : 1.2;
+}
+
+
+[noupper], [noupper] * { text-transform: none !important;}
+
+.touchsmaller h1 { font-size: 115px!important;}
