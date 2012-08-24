@@ -37,8 +37,8 @@
 			<div class="slides">
 				<section>
 					<h1>Debuggify</h1>
-					<!-- <h3 class="inverted">Productivity++ &amp;&amp; Stress--</h3>
-					<p>You can navigate with <span class="key">→</span> and <span class="key">↓</span>.</p> -->
+					<!-- <h3 class="inverted">Productivity++ &amp;&amp; Stress--</h3> -->
+					<p>You can navigate with <span class="key">→</span> and <span class="key">↓</span>.</p>
 					<script>
 						// Delicously hacky. Look away.
 						if( navigator.userAgent.match( /(iPhone|iPad|iPod|Android)/i ) ) document.write( '<p style="color: rgba(0,0,0,0.3); text-shadow: none;">('+'Tap to navigate'+')</p>' );
@@ -161,7 +161,7 @@
         	<div style="float:right;" >
             <img src="./images/devices.png" width ="400" height="300"/>
         	</div>
-    			</div><!-- 
+    			</div><!--
 					<p><img src="" /></p>
 					<p><img src="" /></p> -->
 				</section>
@@ -563,6 +563,21 @@ linkify( 'a' );
 			});
 
 			hljs.initHighlightingOnLoad();
+		</script>
+
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-33559087-1']);
+		  _gaq.push(['_setDomainName', 'debuggify.net']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
 		</script>
 
 	</body>
