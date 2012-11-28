@@ -22,8 +22,19 @@ section th>span {
   display: block;
   text-align: left;
 }
+
 section table {
   margin-left: 6em;
+}
+
+section table.next-months {
+  margin-left: 0em;
+}
+
+.next-months tr, .next-months td, .next-months th {
+  padding-left: 5px;
+  padding-right: 5px;
+  border: double 1px rgba(128, 128, 128, 0.35);
 }
 
 .reveal .slides section .highlight-red.visible {
