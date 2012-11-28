@@ -1,0 +1,31 @@
+span.clouditem {
+  margin: 20px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.problems {
+  padding-left: 6em;
+}
+
+section ul.problems-list.left {
+  padding-left: 35px;
+}
+
+section th>span {
+  display: block;
+  text-align: left;
+}
+section table {
+  margin-left: 6em;
+}
+
+.reveal .slides section .highlight-red.visible {
+  color: #FF2C2D;
+}
