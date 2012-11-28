@@ -18,7 +18,7 @@ section ul.problems-list.left {
   padding-left: 35px;
 }
 
-section th>span {
+section th>span, section td>span{
   display: block;
   text-align: left;
 }
@@ -26,12 +26,18 @@ section th>span {
 section table {
   margin-left: 6em;
 }
-
-section table.next-months {
+/*
+section tr,section td, section th {
+  padding-left: 5px;
+  padding-right: 5px;
+  border: double 1px rgba(128, 128, 128, 0.35);
+}
+*/
+section table.next-months, section table.fund-raising {
   margin-left: 0em;
 }
 
-.next-months tr, .next-months td, .next-months th {
+.table-bordered tr, .table-bordered td, .table-bordered th {
   padding-left: 5px;
   padding-right: 5px;
   border: double 1px rgba(128, 128, 128, 0.35);
